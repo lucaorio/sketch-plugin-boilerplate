@@ -1,4 +1,4 @@
-## Sketch Plugin Boilerplate
+# Sketch Plugin Boilerplate
 
 > An ultra-minimal boilerplate to get up and running with a Sketch plugin
 
