@@ -1,0 +1,23 @@
+{
+  "author": "Luca Orio",
+  "name": "⬛️ Sketch Plugin Boilerplate",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "identifier": "com.sketch.sketch-plugin-boilerplate",
+  "appcast": "https://raw.githubusercontent.com/lucaorio/sketch-plugin-boilerplate/master/appcast.xml",
+  "icon": "sketch-plugin-boilerplate.png",
+  "commands": [
+    {
+      "name": "Boilerplate",
+      "identifier": "main",
+      "script": "./main.js",
+      "description": "Boilerplate",
+      "icon": "sketch-plugin-boilerplate.png",
+      "shortcut": "ctrl cmd z"
+    }
+  ],
+  "menu": {
+    "title": "⬛️ Sketch Plugin Boilerplate",
+    "items": ["main"]
+  }
+}

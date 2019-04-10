@@ -1,0 +1,28 @@
+{
+  "name": "sketch-plugin-boilerplate",
+  "version": "0.1.0",
+  "description": "Sketch Plugin Boilerplate",
+  "author": "Luca Orio <luca.o@me.com>",
+  "license": "MIT",
+  "engines": {
+    "sketch": ">=54.0"
+  },
+  "scripts": {
+    "start": "skpm-link",
+    "watch": "skpm-build --watch",
+    "lint": "eslint src/**/*.js && prettier --write src/**/*.js",
+    "build": "yarn lint && skpm-build"
+  },
+  "skpm": {
+    "name": "sketch-plugin-boilerplate",
+    "manifest": "src/manifest.json",
+    "main": "sketch-plugin-boilerplate.sketchplugin"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.11",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-plugin-import": "^2.14.0",
+    "prettier": "^1.16.4"
+  }
+}
