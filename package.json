@@ -8,10 +8,10 @@
     "sketch": ">=54.0"
   },
   "scripts": {
-    "start": "skpm-link",
     "watch": "skpm-build --watch",
     "lint": "eslint src/**/*.js && prettier --write src/**/*.js",
-    "build": "yarn lint && skpm-build"
+    "build": "yarn lint && skpm-build",
+    "postinstall": "yarn build && skpm-link"
   },
   "skpm": {
     "name": "sketch-plugin-boilerplate",
