@@ -13,6 +13,9 @@
     "build": "yarn lint && skpm-build",
     "postinstall": "yarn build && skpm-link"
   },
+  "assets": [
+    "assets/**/*.*"
+  ],
   "skpm": {
     "name": "sketch-plugin-boilerplate",
     "manifest": "src/manifest.json",
