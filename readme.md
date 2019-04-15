@@ -16,10 +16,10 @@
 
 [skpm](https://github.com/skpm/skpm) does an amazing job at scaffolding, building, and publishing Sketch plugins. In fact, this boilerplate itself uses it. However, I often find myself copy/pasting files and configurations between different plugins, and I needed a repo to clone on the fly.
 
-- I will eventually translate this to a skpm/template
 - This is **not** a Sketch plugin. It's a boilerplate to quickly **build** one
 - The project could not necessarily address, nor fit all your needs
 - Some features offered out-of-the-box by skpm are not included, as I don't use them
+- I could have made a _skpm template_, but I eventually decided not to
 
 ## Features
 
