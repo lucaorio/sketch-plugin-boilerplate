@@ -1,7 +1,7 @@
 {
-  "name": "sketch-plugin-boilerplate",
-  "version": "0.1.1",
-  "description": "Sketch Plugin Boilerplate",
+  "name": "{{ slug }}",
+  "description": "",
+  "version": "0.1.0",
   "author": "Luca Orio <luca.o@me.com>",
   "license": "MIT",
   "engines": {
@@ -17,9 +17,9 @@
     "assets/**/*.*"
   ],
   "skpm": {
-    "name": "sketch-plugin-boilerplate",
+    "name": "{{ name }}",
     "manifest": "src/manifest.json",
-    "main": "sketch-plugin-boilerplate.sketchplugin"
+    "main": "{{ slug }}.sketchplugin"
   },
   "devDependencies": {
     "@skpm/builder": "^0.5.11",

@@ -1,6 +1,6 @@
 # Sketch Plugin Boilerplate
 
-> An ultra-minimal boilerplate to get up and running with a Sketch plugin
+> An ultra-minimal skpm template
 
 ## Contents
 
@@ -14,18 +14,18 @@
 
 ## Rationale
 
-[skpm](https://github.com/skpm/skpm) does an amazing job at scaffolding, building, and publishing Sketch plugins. In fact, this boilerplate itself uses it. However, I often find myself copy/pasting files and configurations between different plugins, and I needed a repo to clone on the fly.
+I simply needed a [skpm](https://github.com/skpm/skpm) template to scaffold, and spin up a Sketch plugin on the fly.
 
 - This is **not** a Sketch plugin. It's a boilerplate to quickly **build** one
-- The project could not necessarily address, nor fit all your needs
-- Some features offered out-of-the-box by skpm are not included, as I don't use them
-- I could have made a _skpm template_, but I eventually decided not to
+- The template includes my personal name, and contacts. If you're not me... Make sure to edit them! 🙃
+- This project could not necessarily address, nor fit all your needs
+- This uses [yarn](https://yarnpkg.com/en/) only, no [npm](https://www.npmjs.com/)
 
 ## Features
 
 - Temporary shortcut set to `ctrl+cmd+z`
 - Customizable linting via [ESLint](https://eslint.org/), and [Prettier](https://prettier.io/)
-- [Sketch Runner](https://sketchrunner.com/) integration already included
+- [Sketch Runner](https://sketchrunner.com/) integration-ready
 
 ## Requirements
 
@@ -36,14 +36,14 @@ yarn global add babel-eslint
 yarn global add prettier
 ```
 
-Install the proper plugins ([ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org)) to directly validate code in the text-editor (optional).
+Install the proper plugins ([ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org)) to validate the code directly in the text-editor (optional).
 
 ## Installation
 
 ```shell
-git clone git@github.com:lucaorio/sketch-plugin-boilerplate.git
-cd sketch-plugin-boilerplate
-yarn start
+skpm create <project-name> --name "<Project Name>" --template=lucaorio/sketch-plugin-boilerplate --install false
+cd <project-name>
+yarn install
 ```
 
 ## Usage
@@ -64,7 +64,7 @@ yarn postinstall
 
 ## License
 
-![https://github.com/lucaorio/sketch-styles-generator/blob/master/license](https://img.shields.io/badge/license-MIT-blue.svg)
+![https://github.com/lucaorio/sketch-plugin-boilerplate/blob/master/license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ---
 
