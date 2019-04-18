@@ -1,4 +1,4 @@
-const sketch = require('sketch');
+import sketch from 'sketch';
 
 const main = () => {
   sketch.UI.message('Hello, my friend! 👋');

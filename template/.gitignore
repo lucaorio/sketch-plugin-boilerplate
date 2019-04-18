@@ -1,0 +1,14 @@
+node_modules
+build
+builds
+.DS_Store
+.DS_Store?
+._*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+npm-error.log*

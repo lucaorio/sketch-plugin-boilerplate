@@ -1,0 +1,23 @@
+{
+  "author": "Luca Orio",
+  "name": "{{ name }}",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "identifier": "com.sketch.{{ slug }}",
+  "appcast": "https://raw.githubusercontent.com/lucaorio/{{ slug }}/master/appcast.xml",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "{{ name }}",
+      "identifier": "main",
+      "script": "./main.js",
+      "description": "{{ name }}",
+      "icon": "icon.png",
+      "shortcut": "ctrl cmd z"
+    }
+  ],
+  "menu": {
+    "title": "{{ name }}",
+    "items": ["main"]
+  }
+}
