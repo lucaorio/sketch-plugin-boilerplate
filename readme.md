@@ -31,12 +31,12 @@ I simply needed a [skpm](https://github.com/skpm/skpm) template to scaffold, and
 
 ```shell
 yarn global add skpm
-yarn global add eslint
-yarn global add babel-eslint
-yarn global add prettier
+yarn add eslint
+yarn add babel-eslint
+yarn add prettier
 ```
 
-Install the proper plugins ([ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org)) to validate the code directly in the text-editor (optional).
+Install the proper plugins ([ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [EditorConfig](https://editorconfig.org)) to lint and format the code directly in your text-editor (optional).
 
 ## Installation
 
@@ -49,17 +49,17 @@ yarn install
 ## Usage
 
 ```shell
-# lint and build
-yarn build
+# build with hot reload
+yarn watch
 
 # lint
 yarn lint
 
-# build with hot reload
-yarn watch
+# lint and build
+yarn build
 
 # lint, build, and symlink the plugin
-yarn postinstall
+yarn symlink
 ```
 
 ## License
